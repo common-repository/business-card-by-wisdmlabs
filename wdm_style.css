@@ -1,0 +1,150 @@
+.wdm_container{
+    /*color:red;*/
+}
+.wdm_container fieldset{
+        border: none;
+        margin: 13px;
+    }
+.wdm_container .wdm_form_col{
+    float:left;
+    margin-left: 8px;
+    font-size: 15px;
+    font-family: verdana;
+    }
+.wdm_container input{
+        box-shadow: 1px 1px 0px #888888 inset;
+        height: 38px;
+    }
+.wdm_container textarea{
+    width: 416px;
+    height: 98px;
+    box-shadow: 1px 1px 0px #888888 inset;
+    resize: none;
+    }
+.wdm_container .wdm_feedback{
+    margin-top: 15px;
+    width:615px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.wdm_card_container{
+        width: 300px;
+        height: 180px;
+        background-color: #000;
+        /*color: red;*/
+        overflow: hidden;
+        font-size: 14px;
+        margin-top: 15px;
+        margin-left: 17px;
+        box-shadow: 4px 4px 4px #888;
+        border-radius: 7px;
+        border: 1px solid #888;
+        font-family: sans-serif;
+    }
+    .wdm_logo{
+        width: 100px;
+        height: 80px;
+        overflow:hidden;
+        text-align: center;
+        float: left;
+    }
+    .wdm_logo img{
+        /*position: relative;
+        top: 50%;*/
+        /*margin-top: 50px;*/
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .wdm_contact_org{
+        width:187px;
+        text-align: right;
+        overflow: hidden;
+        line-height: 18px;
+    }
+    .wdm_user_info{
+        width: 287px;
+        height: 55px;
+        overflow:hidden;
+        line-height: 19px;
+        text-align: right;
+    }
+    .wdm_addr{
+        width:287px;
+        text-align: right;
+        line-height: 16px;
+    }
+    .wdm_addr1{
+        margin-top: 40px;
+    }
+    .wdm_name{
+        margin-top: 12px;
+        font-size: 19px;
+        margin-bottom: 4px;
+        font-weight: bold;
+    }
+    .wdm_col_pic{
+        position: relative;
+        top: -10px;
+    }
+    .wdm_button{
+        background-color: #2680AA !important;
+        color: white !important;
+        font-weight: bold;
+        border-radius: 7px !important;
+        /*padding: 3px 10px 5px !important;*/
+        height: 30px !important;
+        box-shadow: none !important;
+        border: 2px solid #2680AA !important;
+        font-size: 13px;
+    }
+    .wdm_button:hover{
+        cursor: pointer;
+        border-color: #1E6789 !important;
+    }
+    .wisdmlabs_logo{
+        position: relative;
+    }
+    .wisdmlabs_logo img{
+        position: absolute;
+        top: 0px;
+    }
+    .wdm_save_button{
+        /*position: relative;
+        top:-45px;*/
+        margin-top: 0px;
+    }
+    .preview_window{
+       /* position: absolute;
+        top: 99px;
+        left: 462px;
+        border: 3px solid #888;
+        padding: 10px;
+        text-align: center;*/
+       float: left;
+       margin-right: 5px;
+    }
+    .wdm_result{
+        color: red;
+    }
+    .wdm_feedback_b{
+        position: absolute;
+        top: 15px;
+        left: 600px;
+        
+    }
+    .wdm_box{
+     float: left;
+     
+    }
+    .wdm_p_info_box{
+        float: left;
+        }
+   .wdm_highlight{
+        border: 2px solid red !important;
+   }
+   .wdm_loading{
+        opacity: 0;
+        display: none;
+   }
